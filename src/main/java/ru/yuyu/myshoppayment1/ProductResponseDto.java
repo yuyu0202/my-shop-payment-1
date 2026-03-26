@@ -2,6 +2,7 @@ package ru.yuyu.myshoppayment1;
 
 import lombok.Builder;
 
+import java.time.Instant;
 import java.time.LocalDateTime;
 
 @Builder
@@ -10,7 +11,7 @@ public record ProductResponseDto (
         Long productId,
         String name,
         Double price,
-        LocalDateTime paymentDateTime,
+        Instant createdAt,
         String result
 ){
 }

@@ -31,7 +31,7 @@ public class Payment {
     @Column(name = "payment_method")
     private String paymentMethod;
 
-    @Column(name = "created_at ")
+    @Column(name = "created_at")
     private Instant createdAt;
 
     @Column(name = "result")
